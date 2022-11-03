@@ -1,0 +1,57 @@
+
+1s
+# import pandas
+import pandas as pd
+[2]
+1s
+#  import titanic csv file
+titanic_csv = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Titanic.csv')
+[3]
+0s
+# display titanic_csv
+titanic_csv.head()
+
+[4]
+1s
+#  import titanic excel file
+titanic_excel = pd.read_excel('https://github.com/ybifoundation/Dataset/raw/main/Titanic.xlsx')
+[5]
+0s
+# display titanic_excel
+titanic_excel.head()
+
+[6]
+0s
+#  import titanic json file
+titanic_json = pd.read_json('https://github.com/ybifoundation/Dataset/raw/main/Titanic.json')
+[7]
+0s
+# display titanic_json
+titanic_json.head()
+
+[8]
+1s
+#  import titanic html file
+titanic_html = pd.read_html('https://github.com/ybifoundation/Dataset/raw/main/Titanic.html')
+[10]
+0s
+# display titanic_html
+titanic_html[0].head()
+
+[11]
+0s
+#  import titanic text file
+titanic_txt = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Titanic.txt')
+[12]
+1s
+# display titanic_txt
+titanic_txt.head()
+
+[13]
+1s
+#  import titanic semicolon file
+titanic_semicolon = pd.read_csv('https://github.com/ybifoundation/Dataset/raw/main/Titanic%20Semicolon.csv',delimiter=';')
+[14]
+0s
+# display titanic_semicolon
+titanic_semicolon.head()
